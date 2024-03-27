@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(191.27% 102.55% at 36% 35%,rgba(33, 228, 134, 0.45),rgba(75, 27, 229, 0.44) 96.947%,rgba(20, 230, 129, 0) 100%)/* Предупреждение: градиент использует вращение, не поддерживаемое CSS, и может работать не так, как ожидается. */;
+   }
+   
+   header {
+
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+   }
+   
+   #skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+   }
+   
+   .skill {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    ::before .skill{
+        color: violet;
+    }
+   }
+   
+   #lesson {
+    padding: 20px;
+   }
